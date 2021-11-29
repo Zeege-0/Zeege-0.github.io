@@ -3,20 +3,96 @@ title: 'Home'
 comments: false
 ---
 
-# Hello
+# Hello World
 
-This is the demo of [hexo-theme-book](https://github.com/kaiiiz/hexo-theme-book) :)
+Hello World.
 
-## Contribution
+$$
+ \LaTeX\begin{cases} \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} &= 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }\\
+ \lim\limits_{n\rightarrow\infin}(1+\dfrac{1}{n})^{n}&=e\\
+ abcdEFGH &= \mathcal{ABCD}\mathscr{EFGH}
+ \end{cases}
+$$
 
-* Feel free to open **issue** in the github repo if you have any suggestions to this theme.
-* Also, you can **pull request** directly if there exist any unsolved bugs.
+Lorem ipsum `dolor` sit amet[^first], [test link](/archive) consectetur adipiscing elit. **Strong text** pellentesque ligula ==commodo viverra vehicula==. *Italic text* at ullamcorper enim un inline footnote^[Text of inline footnote]. Morbi a euismod nibh. <u>Underline text</u> non elit nisl. ~~Deleted text~~ tristique, sem id condimentum tempus, inline $f(x)=\int \dfrac{1}{1+e^{-x}}\text{d}x$ render. Sed ultricies ac arcu quis molestie[^first][^second]. Lorem <sup>superscript</sup> dolor <sub>subscript</sub> amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. <cite>cite</cite>. <acronym title="National Basketball Association">NBA</acronym> Mauris a ante. Morbi imperdiet augue quis tellus.  <abbr title="Avenue">AVE</abbr>
 
-## Timeline
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+> > Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.
 
-* 2020/10/10 - v3.0.0 release
-* 2020/03/25 - v2.1.0 release
-* 2020/01/30 - v2.0.0 release
-* 2020/01/24 - v2.0.0 beta testing :fire:
-* 2019/07/03 - Submit this theme to [hexo.io](https://hexo.io/themes/) ([pr#986](https://github.com/hexojs/site/pull/986))
-* 2019/04/28 - For more scalability, I developed this theme for my personal note used
+{% pullquote right %}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+{% endpullquote %}
+
+::: note
+*note*
+:::
+
+::: tip
+*tip*
+:::
+
+::: attention
+*attention*
+:::
+
+::: warning
+*warning*
+:::
+
+```c++
+#include <iostream>
+class HelloWorld{
+public:
+    std::string text;
+    HelloWorld(const std::string &t): text(t){}
+    void greet(const std::string &t){
+        std::cout << this->text;
+    }
+}
+int main(){
+    HelloWorld world("Hello World!");
+    world.greet();
+    return 0;
+}
+```
+
+## List Types
+
+**Ordered List**
+
+1. List Item 1
+   1. List Item 1.1
+   2. List Item 1.2
+      1. List Item 1.2.1
+2. List Item 2
+3. List Item 3
+
+**Unordered List (ul)**
+
+- List Item 1
+   - List Item 1.1
+   - List Item 1.2
+      - List Item 1.2.1
+- List Item 2
+- List Item 3
+
+**Checkbox List (ul)**
+
+- [ ] List Item 1 unchecked
+- [x] List Item 2 checked
+- [X] List Item 3 checked
+
+## Table
+
+| Table Header 1 | Table Header 2 | Table Header 3 |
+| :- | :-: | -: |
+| Division 1 | Division 2 | Division 3 |
+| Division 1 | Division 2 | Division 3 |
+| Division 1 | Division 2 | Division 3 |
+
+
+[^first]: Footnote **can have markup**
+
+    and multiple paragraphs.
+
+[^second]: Footnote text.
