@@ -8,6 +8,14 @@
 
 ## ⚠ Notice
 
+![__nakagawa_natsuki_and_yoshikawa_yuuko_hibike_euphonium_drawn_by_monsieur__b715abef934469623cd52d538a3a35c6](https://gitee.com/zeege/cos-for-notebook-coding/raw/master/hexo-theme-book/README/__nakagawa_natsuki_and_yoshikawa_yuuko_hibike_euphonium_drawn_by_monsieur__b715abef934469623cd52d538a3a35c6.png)
+
+![3f3749e4aa0a204fb74a01a784aea4dc111a1765.jpg@1320w_1876h](https://gitee.com/zeege/cos-for-notebook-coding/raw/master/hexo-theme-book/README/3f3749e4aa0a204fb74a01a784aea4dc111a1765.jpg@1320w_1876h.webp)
+
+![773447](https://gitee.com/zeege/cos-for-notebook-coding/raw/master/hexo-theme-book/README/773447.png)
+
+![947718](https://gitee.com/zeege/cos-for-notebook-coding/raw/master/hexo-theme-book/README/947718.png)
+
 Since I have already migrated my note from hexo to [hugo](https://gohugo.io/), the development progress may be slow down in the future. If you want to add more features to this theme, fill free to fork and modify it by yourself. Though I will not put a lot efforts in this project, any suggestions are still welcome.
 
 However, I suggest that you should try hugo first before using hexo (if you never used both). Hugo is writen by go-lang, and it is faster, powerful and lighter than hexo in my opinion. After doing some research, I realized that hugo can meet all of my requirements and also provide a more logical way to customize a theme at the same time which is amazing, you guys should give it a try!

@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Linzr
+title: Lamzr
 subtitle: ''
 description: ''
 keywords:
@@ -108,7 +108,7 @@ theme: hexo-theme-book
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@gitee.com:zeege/zeege.git
+  repo: git@github.com:Zeege-0/zeege.github.io.git
   branch: master
 
 markdown:
