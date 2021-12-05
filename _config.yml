@@ -107,8 +107,11 @@ theme: hexo-theme-book
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:Zeege-0/zeege.github.io.git
+- type: git
+  repo: git@gitee.com:zeege/zeege.git
+  branch: master
+- type: git
+  repo: git@github.com:Zeege-0/Zeege-0.github.io.git
   branch: master
 
 markdown:
